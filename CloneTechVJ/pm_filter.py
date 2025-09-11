@@ -80,7 +80,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -229,7 +229,7 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
     ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -341,7 +341,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
     ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -455,7 +455,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -596,7 +596,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
     ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -704,7 +704,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
     ] 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         if settings["update_channel_link"] != None:
-            buttons.append([[InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍿', url=f'{settings["update_channel_link"]}')]])
+            buttons.append([[InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍿\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMoviesHubBackup', url=f'{settings["update_channel_link"]}')]])
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(text=script.CLONE_START_TXT.format(query.from_user.mention, me.username, me.first_name), reply_markup=reply_markup)
 
@@ -898,7 +898,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
     ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+            InlineKeyboardButton(f'🍿 Mᴏᴠɪᴇs', url=f"https://t.me/AkMoviesHubBackup"),
             InlineKeyboardButton("🤖 Bᴏᴛs", url=f"https://t.me/zoroversex"),
             InlineKeyboardButton("🎁 Bᴀᴄᴋᴜᴘ",  url=f"https://t.me/+goqkqMMqob44YzBl")
         ]
@@ -956,7 +956,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
         )
         temp.IMDB_CAP[message.from_user.id] = cap
     else:
-        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
+        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : @AkMoviesHubBackup \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -1020,7 +1020,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     SPELL_CHECK[mv_id] = movielist
     if vj_search == True:
         vj_search_new = False
-        vj_ai_msg = await reply_msg.edit_text("<b><i>Advance Ai Of Tech VJ Try To Find Your Movie With Your Wrong Spelling.</i></b>")
+        vj_ai_msg = await reply_msg.edit_text("<b><i>Advance Ai Try To Find Your Movie With Your Wrong Spelling.</i></b>")
         movienamelist = []
         movienamelist += [movie.get('title') for movie in movies]
         for techvj in movienamelist:
@@ -1056,6 +1056,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
         )
         await asyncio.sleep(600)
         await spell_check_del.delete()
+
 
 
 
