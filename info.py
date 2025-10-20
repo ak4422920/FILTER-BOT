@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/K2-.jpg https://envs.sh/KuD.jpg https://envs.sh/KuE.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/mrnsjz15/photo-2025-09-29-15-02-46-7557575392077283344.jpg https://i.ibb.co/RpnW7tSh/photo-2025-09-29-14-55-56-7557575422142054416.jpg https://i.ibb.co/D0HDXG4/photo-2025-09-29-14-56-05-7557575477976629268.jpg')).split()
 
 
 # Admins & Users
@@ -29,7 +29,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002431609970'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002294594986 -1001769437975 -1001855645227 -1002834794495 -1002776067152 -1003170296959').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002294594986 -1001769437975 -1001855645227 -1002834794495 -1002776067152 -1003170296959 -1003167170347').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
