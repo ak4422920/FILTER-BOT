@@ -548,7 +548,7 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(caption=f_caption)
-            btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMoviesHubBackup", callback_data=f'del#{file_id}')]]
+            btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMovieHubX", callback_data=f'del#{file_id}')]]
             k = await msg.reply(text=f"<blockquote><b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u>10 mins</u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs)</i>.\n\n<b><i>ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ.</i></b></blockquote>")
             await asyncio.sleep(600)
             await msg.delete()
@@ -596,7 +596,7 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         reply_markup=reply_markup
     )
-    btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMoviesHubBackup", callback_data=f'del#{file_id}')]]
+    btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMovieHubX", callback_data=f'del#{file_id}')]]
     k = await msg.reply(text=f"<blockquote><b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u>10 mins</u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs)</i>.\n\n<b><i>ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ.</i></b></blockquote>")
     await asyncio.sleep(600)
     await msg.delete()
@@ -1232,7 +1232,7 @@ async def removetutorial(bot, message):
 async def stop_button(bot, message):
     msg = await bot.send_message(text="**🔄 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙴𝚂 𝚂𝚃𝙾𝙿𝙴𝙳. 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMoviesHubBackup **")
+    await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴\n‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @AkMovieHubX **")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 @Client.on_message(filters.command("nofsub"))
@@ -1404,5 +1404,6 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
